@@ -21,7 +21,7 @@ async function download(q,res){
         method: 'GET',
         url : 'https://api.twitter.com/2/tweets/search/recent',
         headers: {
-          'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAMd3WwEAAAAA9W%2FbQvsnxlRFDivYSOwHsXiMmiI%3DuR4FRMjLH9uOGuvi4S9ccXBRg3ud0s88TerwhAKHA5sqzkolAu'
+          'Authorization': 'Your twitter API KEY'
         },
         qs : {
           query : q
